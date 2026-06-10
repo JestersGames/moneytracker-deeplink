@@ -1,14 +1,10 @@
-<script>
-const params = new URLSearchParams(window.location.search);
-const wallet = params.get("wallet");
-
-const playStoreUrl =
-  "https://play.google.com/store/apps/details?id=com.jestersgames.moneytracker";
-
-const intentUrl =
-  "intent://invite?wallet=" + wallet +
-  "#Intent;scheme=moneytracker;package=com.jestersgames.moneytracker;" +
-  "S.browser_fallback_url=" + encodeURIComponent(playStoreUrl) + ";end";
-
-window.location.href = intentUrl;
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Money Tracker</title>
+</head>
+<body>
+    <h1>Money Tracker</h1>
+    <p>Test su cloudflare</p>
+</body>
+</html>

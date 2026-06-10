@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jestersgames.moneytracker",
+      "sha256_cert_fingerprints": [
+        "88:E3:EB:58:89:59:0A:D5:5A:D5:82:BA:EE:AC:32:A8:74:CA:C5:0F:79:30:0B:A3:D3:B4:20:AB:BB:5C:1E:05"
+      ]
+    }
+  }
+]
